@@ -1,0 +1,200 @@
+*{
+    margin: 0px;
+}
+
+.head{
+    position:absolute;
+    background-color: rgb(41, 43, 43);
+    height:100vh;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ansDiv
+{
+    flex: 2;
+    background-color: rgb(37, 35, 35);
+    margin: 20px;
+    border: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.oprationDiv
+{
+    flex: 5;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 3vh;
+
+}
+
+.opration
+{
+    margin: 0px;
+    color: aqua;
+    font-size:4vh;
+    
+    
+}
+
+
+.outputDiv
+{
+    flex: 7;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.output
+{
+    
+    margin: 0px;
+    color: aqua;
+    font-size: 7vh;
+}
+
+.otherButtonsDiv
+{
+   flex: 4;
+   border: solid;
+   border-radius: 2vh;
+   background-color: rgb(45, 46, 48);
+   border-width: 0px;
+}
+
+.calcButtonsDiv
+{
+    flex: 3;
+    display: grid;
+    margin: 20px;
+    row-gap:2vh;
+    column-gap:2vb;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(37, 35, 35);
+    border-radius: 20px;
+    border-width: 0px;
+    padding: 2vh;
+}
+
+.calcButtonDiv
+{
+    margin: 0px;
+    padding: 0.5vh;
+    background-color: rgb(79, 81, 81);
+    border: solid;
+    border-width: 0px;
+    border-radius: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    border: solid;
+    border-color: rgb(60, 60, 70);
+    border-width: 2px;
+    border-radius: 1vh;
+    font-size: 200%;
+    transition: 0.15s;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(192, 192, 192);
+}
+button:hover
+{
+    background-color:rgb(255, 255, 255);
+}
+button:active
+{
+    font-size: 160%;
+    background-color: rgb(163, 163, 163);
+}
+.EqualButton
+{ 
+    background-color:rgb(1, 196, 196); 
+    
+}
+.EqualButton:hover
+{
+    background-color:rgb(0, 220, 220);
+    
+}
+.EqualButton:active
+{
+    background-color:rgb(0, 137, 137);
+}
+.OpratorButton
+{
+    background-color:rgb(197, 172, 196);
+}
+.OpratorButton:hover
+{
+    background-color:rgb(231, 204, 230);
+}
+.OpratorButton:active
+{
+    background-color:rgb(154, 135, 154);
+    font-size: 180%;
+}
+.DeleteButton
+{
+    background-color:rgb(170, 167, 141);
+}
+.DeleteButton:hover
+{
+    background-color: rgb(243, 237, 207);
+}
+.DeleteButton:active
+{
+    background-color: rgb(153, 150, 137);
+    font-size: 190%;
+}
+
+.KeyBoardButtonDiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.KeyBoardButton
+{
+    flex:1;
+    border: solid;
+    border-color: rgb(79, 81, 81);
+    border-width:0.7vh ;
+    max-width:min-content;
+}
+.KeyBoardButton:hover
+{
+    font-size: 200%;
+}
+.KeyBoardButton:active
+{
+    font-size: 200%;
+}
+
+
+
+
+
+
+
+
+
