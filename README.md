@@ -14,12 +14,7 @@
 # 📽️ tutorial Video link :...
 
 # 📂 Project Structure
-  Calc56
-  |
-  |--- Style      --> style.css
-  |
-  |--- JavaScript --> Stript.js
-  main.html
+  Calc56 : { Style : { style.css } , JavaScript : { Stript.js } , main.html }
 
 # ▶️ DownLoad And Run
    just download Calc56
